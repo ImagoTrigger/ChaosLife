@@ -1,0 +1,397 @@
+LANGUAGE, English
+STRS_inv_sellitems_nolicense,You need a %1 to sell this.
+STRS_inv_sellitems_nolicensecop,You need a %1 to sell this.
+STRS_hints_vehicle_information,VEHICLE INFORMATION:\n\nName: %4\nType: %1\ndirection: %2\nHeight ASL: %3m\nDriver: %5\nFree Cargo: %6
+STRS_functions_crimelog_msg12,Speeding
+STRS_southChernarus_area,You do not have jurisdiction in this area. Turn around!
+STRS_verbotene_zone_teleport,You entered a prohibited area and have been teleported back to your respawn area.
+STRS_arbeiter_in_copbase,One of your prostitutes was too close to the Police base
+STRS_prostitute_zuviele,You cannot buy any more Prostitutes!!
+STRS_prostitute_nomoney,You cannot afford a prostitute. You need at least 25K or %1 skulls
+STRS_prostitute_moneyaction,Take your money from this hoe
+STRS_prostitute_tot,One of your hoes has died! Protect them in future!
+STRS_prostitute_cashabnahme_ja,This prostitute has earned you $%1.
+STRS_prostitute_cashabnahme_nein,This prostitute has no money!! Useless!
+STRS_addaction_buy_shop,Buy %1 for $%2
+STRS_addaction_trunk,Trunk
+STRS_addaction_vehicleinfo,Vehicle information
+STRS_addaction_trunk_see,View Trunk
+STRS_addaction_trunk_check,Search Vehicle
+STRS_camciv_nomoney,Civ cam has been removed.
+STRS_civcam_notwanted,You are watching %1. He is not wanted.
+STRS_civcam_wanted,You are watching %1. He is wanted.
+STRS_deadcam_deadwait_civ,You have now died %1 time(s) and suicided %5 time(s) and have to wait %2 seconds to respawn. You must also wait an additional %4 seconds to respawn (for any players you killed in this life and any suicides).
+STRS_deadcam_deadwait_cop,"As a cop you have to wait 15 seconds to respawn, plus an additional 30 seconds for any players you kill.\nYour respawn time this round is %1 seconds.\nTo avoid a high respawn time, shock or arrest civilians instead of killing them. "
+STRS_civmenu_stehlen_copzunah,You cannot steal anything as a cop is near.
+STRS_civmenu_stehlen,You are stealing money from that player! Please wait five seconds to get the money.
+STRS_civmenu_distance,You are either too far away from the Civ or he is dead
+STRS_civmenu_hasnodrugs,The civ does not have any drugs.
+STRS_civmenu_hasdrugs,"%1 had drugs, you removed them. You should jail %1 for %2 minutes or give him a ticket of $%3. "
+STRS_civmenu_disarm,You disarmed %1!.
+STRS_civmenu_arrested,Arresting %1...
+STRS_civmenu_didpayticket,%1 paid the ticket of $%2.
+STRS_civmenu_didpaynothing,%1 chose not to pay the ticket.
+STRS_civmenu_ticket_globalchat,%3 gave a ticket of $%2 to %1
+STRS_civmenu_didnotpayticket,%1 did not have enough money to pay the ticket of $%2
+STRS_civmenu_youdidnotpay,You did not pay the ticket.
+STRS_civmenu_copnotarmed,You are not armed. You need a weapon for this action.
+STRS_civmenu_heal,You healed %1.
+STRS_inventory_checknohands,The Civ does not have his hands up and is not stunned!
+STRS_civmenucheck_beendisarmed,You have been disarmed.
+STRS_civmenucheck_beendrugsearched,Your drugs have been removed.
+STRS_civmenucheck_ticketself,You paid a ticket of $%1.
+STRS_civmenucheck_haddrugs,%1 had $%2 worth of drugs!
+STRS_civmenucheck_arrested_self,You have been arrested for %1 Minutes. After that you will be teleported out. You can board a chopper to escape.
+STRS_civmenucheck_arrested_global,%1 was arrested by %2 for %3 minute(s).
+STRS_civmenucheck_free_global,%1 is free again.
+STRS_civmenucheck_free_self,You are free now. Don't do anything wrong or you will be arrested again.
+STRS_civmenucheck_breakout,%1 has escaped from jail!
+STRS_dialogcivmenu_arrest,Arrest for %1 min(s).
+STRS_cash_countdown,%1 Minute(s) until next Paycheck.
+STRS_cash_were,were
+STRS_cash_nowere,were not
+STRS_cash_civmoneyadd,"%1, you received a paycheck of $%2."
+STRS_cash_copmoneyadd,"%1, You earned $%2, the money has been transfered to your account."
+STRS_cash_copmoney_paycheck,"<t color='#00ff00' size='1.3' shadow='1' shadowColor='#000000' align='center'>Paycheck</t><br/><t align='left' size='1.1'>You earned $%1, the money has been transfered to your account.</t><br/> <t align='left'>Base Pay: $%2 <br/>Training Bonus: $%3 <br/>Checkpoint Bonus: $%4<br/></t>"
+STRS_cash_copmoney_paycheck_donor,"<t color='#00ff00' size='1.3' shadow='1' shadowColor='#000000' align='center'>Paycheck</t><br/><t align='left' size='1.1'>You earned $%1, the money has been transfered to your account.</t><br/> <t align='left'>Base Pay: $%2 <br/>Training Bonus: $%3 <br/>Checkpoint Bonus: $%4<br/>Donator Bonus: $%5</t>"
+STRS_cash_civmoney_paycheck,"<t color='#00ff00' size='1.3' shadow='1' shadowColor='#000000' align='center'>Paycheck</t><br/><t align='left' size='1.1'>You earned $%1, the money has been transfered to your account.</t><br/> <t align='left'>Base Pay: $%2 <br/>Workplaces: $%3 <br/>Gang Activities: $%4</t>"
+STRS_cash_civmoney_paycheck_donor,"<t color='#00ff00' size='1.3' shadow='1' shadowColor='#000000' align='center'>Paycheck</t><br/><t align='left' size='1.1'>You earned $%1, the money has been transfered to your account.</t><br/> <t align='left'>Base Pay: $%2 <br/>Workplaces: $%3 <br/>Gang Activities: $%4 <br/>Donator Bonus: $%5</t>"
+STRS_cash_paycheckdead,You missed a paycheck because you are dead.
+STRD_description_onloadintro,Global Chaos Gaming - Chaos Life
+STRD_description_on,on
+STRD_description_buyitem_close,Close
+STRD_description_submit,Submit
+STRD_description_handy_cost,Cost: $%1
+STRD_description_close,Close
+STRS_handlerdeadpub_civkilled,You killed %1! He wasn't wanted so you should pay 50k to him in compensation.
+STRS_handlerdeadpub_copkilled,You killed %1! You are now wanted!
+STRS_handlerdeadpub_copkilledbycop,You Team-killed %1!
+STRS_handlerdeadpub_suicide,You committed suicide.
+STRS_kopfcash_nokopfcash,You currently can't set %1 wanted.
+STRS_kopfcash_notself,You cannot set yourself unwanted.
+STRS_statdialog_playerinfo,P L A Y E R - I N F O:
+STRS_statdialog_playerlist,P L A Y E R S:
+STRS_statdialog_licenselist,L I C E N S E S:
+STRS_statdialog_inventarlist,I N V E N T O R Y:
+STRS_statdialog_waffen,W E A P O N S:
+STRS_statdialog_magazine,M A G A Z I N E S:
+STRS_statdialog_laws,L A W S:
+STRS_statdialog_hunger,removed
+STRS_statdialog_health,Health
+STRS_statdialog_weight,Weight
+STRS_statdialog_copkills,Cops killed
+STRS_statdialog_civkills,Civs killed
+STRS_statdialog_selfkills,Suicides
+STRS_statdialog_deaths,Deaths
+STRS_hints_ja,Yes
+STRS_hints_nein,No
+STRS_bail_addbail,You got $%1 because Civ%2 paid bail.
+STRS_bail_payed,Civ%1 paid $%2 in bail
+STRS_bail_self,You paid $%1 bail.
+STRS_bail_cantpay,You don't have that much money.
+STRS_prison_notinprison,You cannot release this Civ because he is not in prison.
+STRS_prison_freenow,The Civ is free now.
+STRS_license_car,Drivers License
+STRS_license_truck,Truck License
+STRS_license_bus,Bus License
+STRS_license_passport,Passport
+STRS_license_air,Air-Vehicle License
+STRS_license_engineer,Engineer Training
+STRS_license_civ_shop_permit,Civilian Shopping Permit
+STRS_license_coppatrol,Patrol Training
+STRS_license_copresponse,Criminal Response Training
+STRS_license_copairsupport,Air Support Training
+STRS_license_copswat,SWAT Training
+STRS_item_versicherung,Bank Insurance
+STRS_item_versicherung_info,You cannot lose any money when the bank is robbed while having this item in your inventory. Each time the bank gets robbed one insurance item will be removed.
+STRS_inventar_impound_gesehen,%1 has impounded vehicle (NAME: %2)!
+STRS_inventar_impound_gesehen2,%1 has impounded helo (NAME: %2)!
+STRS_inventar_impound_gesehen3,%1 has impounded boat (NAME: %2)!
+STRS_inventar_impound_success,You have impounded this vehicle!
+STRS_inventar_impound_success2,You have impounded this helo!
+STRS_inventar_impound_success3,You have impounded this boat!
+STRS_item_lockpick,Lock Pick
+STRS_item_lockpick_info,With this device you can steal other vehicles and acquire the keys.
+STRS_inventar_lockpick_zuweit,No vehicle close enough.
+STRS_inventar_lockpick_gesehen,%1 was seen stealing a vehicle (registration plate: %2)!
+STRS_inventar_lockpick_already,you already own this vehicle.
+STRS_inventar_lockpick_success,You got this vehicle!
+STRS_inventar_lockpick_noluck,The lockpick broke.
+STRS_item_wood,Wood
+STRS_item_mineral_oil,Mineral Oil
+STRS_item_ecomponents,Electronic Components
+STRS_item_silicon,Silicon
+STRS_item_copper,Copper
+STRS_item_steel,Steel
+STRS_item_black_powder,Black Powder
+STRS_item_sulfur,Sulfur
+STRS_item_coal,Coal
+STRS_item_silver,Silver
+STRS_item_gold,Gold
+STRS_item_Diamond,Diamond
+STRS_item_petroleum,Petroleum
+STRS_item_glass,Glass
+STRS_item_plastic,Plastic
+STRS_item_sand,Sand
+STRS_item_steelwolle,Steel Wool
+STRS_item_farmitem_info,This item can be used to create other items.
+STRD_dialogandere_gesetze_header,Change laws (You have to choose a slot in the list below. It may be empty.)
+STRD_dialogandere_gesetze_submit,Change!
+STRS_gilde_gesetze_public,Law #%1 has been changed. This is the new Law: %2
+STRS_alreadygotshop,You already own this building.
+STRS_gotshop,"%1, you bought this building for $%2."
+STRS_cop_inprison,You are in prison for either team-killing cops or firing repeatedly in a restricted area.
+STRS_cop_freeprison,You are free again .
+STRS_functions_crimelog_msg1,Robbed the bank and stole $%1.
+STRS_functions_crimelog_msg2,Stole money from another player.
+STRS_functions_crimelog_msg3,Killed a civilian.
+STRS_functions_crimelog_msg4,Killed a police officer.
+STRS_functions_crimelog_msg5,Was sent to prison.
+STRS_functions_crimelog_msg6,Was released from prison.
+STRS_functions_crimelog_msg7,Escaped from prison.
+STRS_functions_crimelog_msg8,Has died.
+STRS_functions_crimelog_msg9,Paid a ticket of %1.
+STRS_functions_crimelog_msg10,Used a bomb.
+STRS_functions_crimelog_msg11,Had a prostitute.
+STRS_functions_crimelog_msg13,Was seen stealing %1
+STRS_functions_crimelog_msg14,Was seen attempting to steal
+STRS_functions_crimelog_msg15,Is an Assassin
+STRS_chief_votedfor,You voted for %1 to be Police Chief. The result will be shown at the end of the current government.
+STRD_description_wahl_header,Election
+STRD_description_wahl_submit,Elect
+STRS_regierung_votedfor,You voted for %1. The result will be shown at the end of the current government.
+STRD_description_steuer_header,Change Taxes
+STRD_description_steuer_submit,Change taxes!
+STRS_dialogandere_menutaxes_itemsteuer,Item tax: %1 Percent
+STRS_dialogandere_menutaxes_fahrzeugsteuer,Vehicle tax: %1 Percent
+STRS_dialogandere_menutaxes_magazinsteuer,Weapon Magazine tax: %1 Percent
+STRS_dialogandere_menutaxes_waffesteuer,Weapon tax: %1 Percent
+STRS_dialogandere_menutaxes_banksteuer,Bank Transfer tax: %1 Percent
+STRS_player_not_ingame,Error: Player not in-game.
+STRS_maxmoney,You can't have more than $999999 in your inventory. Money has been removed.
+STRS_maxbank,You can't have more than $5000000 in your bank. Money has been removed.
+STRS_not_copaction,You are not a cop and cannot use this action.
+STRS_kein_cash,Not enough money.
+STRS_wrong_input,Wrong Input. You are not allowed to use that character (%1).
+STRS_text_zu_lang,The entered text is too long.
+STRS_inv_kein_cash,Not enough money.
+STRS_inv_no_valid_number,The value is not a valid number.
+STRS_inv_fac_buy,Buy this factory ($%1)
+STRS_inv_fac_mani,Manufacture an item
+STRS_inv_fac_storage,Storage
+STRS_inv_no_selection,You did not select an item.
+STRS_inv_fac_not_enough,You do not have enough items in the storage of this factory.
+STRS_inv_fac_dia_herstellen,M A N U F A C T U R E - I T E M S
+STRS_inv_actions_buy,Buy %1 ($%2)
+STRS_inv_buylicense_alreadytrue,You already have that License.
+STRS_inv_buylicense_nomoney,You do not have enough money for that license.
+STRS_inv_buylicense_gottraining,You bought a %2 for $%1.
+STRS_inv_buylicense_alreadyfalse,You do not have that License.
+STRS_inv_buylicense_losttraining,You lost your %1.
+STRS_inv_buyitems_get_zuschwer,Your weight reached the maximum capacity. You are not able to carry more objects.
+STRS_inv_buyitems_get_erhalten,You got %1 %2.
+STRS_inv_buyitems_notallowed,You are not allowed to buy this item.
+STRS_inv_cannotUseNow,You cannot use the inventory now.
+STRS_inv_inventar_weggeworfen,You dropped the item.
+STRS_inv_inventar_drop_zuwenig,You don't have that many objects to drop.
+STRS_inv_inventar_ablege_verbot,You are not allowed to drop this object.
+STRS_inv_inventar_cannotuse,You cannot use this item.
+STRS_inv_inventar_gotfromotherplayer,You got %1 %2 from %3.
+STRS_inv_inventar_cannotdrop,You can not drop an object right now.
+STRS_inv_storage_took,You took %1 of the Item.
+STRS_inv_storage_toomuch,There are not that many items in the storage.
+STRS_inv_storage_dropnotallowed,Not allowed to store that item in a factory.
+STRS_inv_storage_dropunablesomuch,You are not able to store that much.
+STRS_inv_storage_dropped,You stored %1 of the item.
+STRS_inv_storage_cannotdropsomuch,You cannot store that much here.
+STRS_inv_storage_deleted,%1 units of the item deleted.
+STRS_inv_storage_spam,You are still taking/storing items... wait a few seconds.
+STRS_inv_gotshop,"%1, you bought this factory for $%2."
+STRS_inv_alreadygotshop,You already own this factory.
+STRS_inv_storagedialog_take,Take %1 (%2kg)
+STRS_inv_storagedialog_drop,Store %1 (%2kg)
+STRS_inv_shopdialog_itemshop,Your current Money: $%1
+STRS_inv_buyitems_maxgewicht,Max weight reached. You can not carry any more items.
+STRS_inv_buyitems_keincash,You do not have enough money.
+STRS_inv_buyitems_gekauft,You bought %1 %2 for $%3
+STRS_inv_buyvehicles_store_in_use,This store is busy at the moment. Please try again later.
+STRS_inv_buyvehicles_buy_car,You bought a %1 for $%2.
+STRS_inv_buyvehicles_destroyed,The vehicle is destroyed.
+STRS_inv_buyvehicles_noowner,You are not the owner of this vehicle.
+STRS_inv_buyitems_sell_notenough,You do not have enough items to sell.
+STRS_inv_buyitems_verkauft,You sold %1 %2 for $%3.
+STRS_inv_buyitems_sell_toofar,The vehicle is too far away.
+STRS_inv_buyitems_nolicense,You need a %1 to buy this.
+STRS_inv_buyitems_nolicensecop,You need %1 to buy this.
+STRS_inv_shop_sold,You sold %1 %2 for $%3.
+STRS_inv_shop_vehiclesold,You sold the vehicle for $%1.
+STRS_inv_not_ingame,Selected Player is not in-game.
+STRS_inv_inventar_uebergabe_self,You can't give anything to yourself.
+STRS_inv_inventar_uebergabe_distance,You have to be within at least 20 meters of the selected player.
+STRS_inv_inventar_uebergabe_verbot,You must not give this Item to other players.
+STRS_inv_inventar_uebergabe_zuwenig,You don't have enough to give away that many of the item.
+STRS_inv_inventar_uebergabe_success_self,You gave %1 %2 %3.
+STRS_item_cash,Money
+STRS_item_cash_info,"Buy licenses, vehicles, weapons, drugs and other items! Note that you can not carry more than $999,999."
+STRS_inv_item_defuser,Defuser
+STRS_inv_item_defuser_info,With this device you can defuse Satchel Charges and Mines.
+STRS_inv_items_defuser_success,Bomb defused.
+STRS_inv_items_defuser_failed,You made a mistake while defusing the bomb and it exploded!
+STRS_inv_items_defuser_nobomb,No Bomb to defuse.
+STRS_inv_item_lighter,Lighter
+STRS_inv_item_lighter_info,hmm i wonder if i can use this to set a cars fuel on fire
+STRS_inv_item_repairkit,Repair Kit
+STRS_inv_item_repairkit_info,Use it within a vehicle to repair the vehicle. You have to be the driver
+STRS_inv_item_fuelcut,Fuel line cutter
+STRS_inv_item_fuelcut_info,Use this to empty the cars fuel.
+STRS_inv_item_kanister,Can
+STRS_inv_item_kanister_info,A can. Use it in a car to refuel it.
+STRS_inv_items_repair_refuel_notdriver,You are not the driver
+STRS_inv_items_repair_refuel_notincar,Not in a vehicle
+STRS_inv_items_repair_notneeded,Your vehicle is not damaged
+STRS_inv_items_repair_repaired,You repaired that vehicle
+STRS_inv_items_empty_refueled,You emptied the fuel
+STRS_inv_items_refuel_notneeded,Your vehicle's fuel is already full
+STRS_inv_items_refuel_refueled,You refueled your vehicle
+STRS_inv_items_repair_wrongvcl,You cannot repair this vehicle.
+STRS_inv_item_medikit,Medikit
+STRS_inv_item_medikit_info,Restores Health back to 100%. Just use it.
+STRS_inv_item_ziptie,Ziptie
+STRS_inv_item_ziptie_info,Used for Industrial purposes or other things....
+STRS_inv_item_flashlight,Hand-Held Flashlight
+STRS_inv_item_flashlight_info,Press F to use.
+STRS_inv_items_medikit_benutzung,Wait five seconds until you are healed.
+STRS_inv_items_medikit_fertig,You are healed again.
+STRS_inv_items_vehiclelock_closer,You have to be closer to your car!
+STRS_inv_items_vehiclelock_locked,Vehicle locked.
+STRS_inv_items_vehiclelock_unlocked,Vehicle unlocked.
+STRS_inv_items_uebergabe_schluessel_success_self,You gave a copy of the Key for the Vehicle to the selected player.
+STRS_inv_items_uebergabe_schluessel_success,You got key from another player. The Key is now on your Keychain.
+STRS_inv_items_weggeworfen,You dropped the item.
+STRS_inv_item_nitro,Nitro
+STRS_inv_item_nitro_info,Speed-tuning for vehicles. Use this upgrade within a vehicle to install the nitro. Press and hold shift to use the nitro.
+STRS_inv_item_supgrade_info,Use this upgrade in a vehicle to permanently increase its speed. You must be an engineer to install the upgrade. Upgrades do not stack.
+STRS_inv_items_speed_no,You can't tune this vehicle!
+STRS_inv_items_speed_car,You are not inside a vehicle.
+STRS_inv_item_waffentascbe,Weapon Bag
+STRS_inv_item_waffentascbe_info,With this Item you can remove a weapon lying on the ground. After usage
+STRS_inv_items_weapondeleted,%1 weapons deleted (Radius 5m).
+STRS_inv_items_itemdeleted,%1 items deleted (Radius 10m).
+STRS_inv_items_weaponcargocleared,Weapon Cargo cleared!
+STRS_inv_item_waffe,Weapon
+STRS_inv_item_waffe_info,A Weapon you holstered. It is in your inventory. To unholster it
+STRS_inv_items_ressources,Resources can not be used.
+STRS_inv_item_cocaine,Cocaine
+STRS_inv_item_lsd,LSD
+STRS_inv_item_heroin,Heroin
+STRS_inv_item_alkohol_info,Drink it and get drunk simple as that :)
+STRS_inv_item_beer,Beer
+STRS_inv_item_vodka,Vodka
+STRS_inv_item_smirnoff,smirnoff ICE
+STRS_inv_item_whiskey,Triple distilled, barrel aged with a high alcohol content
+STRS_inv_item_wine,wine
+STRS_inv_item_drogen_info,Drugs can either be sold at one of the flags or can be used by player. To do so
+STRS_inv_item_druguse_toomany,You can't use that many drugs at the same time.
+STRS_inv_item_druguse_ende,The effects of the drugs diminish.
+STRS_inv_item_roadblock,Roadblock
+STRS_inv_item_roadblock_info,"A Roadblock. To place it, press use. To remove it, walk up to it and select the corresponding action."
+STRS_inv_item_bargate_info,"A Bar Gate. To place it, press use. To remove it, walk up to it and select the corresponding action. It can also be opened and closed via the action menu."
+STRS_inv_item_BigbagfenceCorner_info,"A Sandbag Wall (corner). To place it, press use. To remove it, walk up to it and select the corresponding action. It can also be opened and closed via the action menu."
+STRS_inv_item_Hbarrier_info,"A H-Barrier. To place it, press use. To remove it, walk up to it and select the corresponding action. It can also be opened and closed via the action menu."
+STRS_inv_item_bigbagfence_info,"A Sandbag Wall. To place it, press use. To remove it, walk up to it and select the corresponding action. It can also be opened and closed via the action menu."
+STRS_inv_item_bigbagfenceRound_info,"A Sandbag Wall (round). To place it, press use. To remove it, walk up to it and select the corresponding action. It can also be opened and closed via the action menu."
+STRS_inv_item_bunkersmall_info,"A Bunker. To place it, press use. To remove it, walk up to it and select the corresponding action. It can also be opened and closed via the action menu."
+STRS_inv_item_danger_info,"A Danger sign. To place it, press use. To remove it, walk up to it and select the corresponding action. It can also be opened and closed via the action menu."
+STRS_inv_item_roadcone_info," Road Cone. To place it, go into your inventory and press use, to pick it up hover over it."
+STRS_inv_item_barrack_info,"Barrack. Go into your inventory and press use on the item to place it, to pick it up hover over the item."
+STRS_inv_item_sperre_invcl,You can't place a Roadblock inside a vehicle.
+STRS_inv_item_sperre_hiernicht,You can't place the object in this area.
+STRS_inv_item_handy_keincash,You cannot afford an SMS.
+STRS_inv_item_handy_gesendet,You sent an SMS to %1.
+STRS_inv_item_handy_nachricht,SMS from %2: %1
+STRS_inv_item_handy_leermsg,You cannot send an empty message.
+STRS_inv_item_handy_noplayer,The selected player is not in-game.
+STRS_inv_item_handy_text_zu_lang,The Text is too long.
+STRS_inv_item_vclammo,Vehicle ammo
+STRS_inv_item_vclammo_info,Ammo for weapons attached to vehicles. Use such a box within vehicles to refill the ammo of the vehicle.
+STRS_inv_item_vclammo_nomg,This is not a gunner seat.
+STRS_inv_item_vclammo_rearmed,You rearmed this vehicle.
+STRS_inv_item_vclammo_novehicle,You are not in a vehicle.
+STRS_inv_item_Bread,Bread
+STRS_inv_item_fisch,Fish
+STRS_inv_item_wheat,Wheat
+STRS_inv_item_food_basic_info,A basic food that restores your stamina.
+STRS_inv_item_food_taco_info,A tasty taco that regenerates your stamina for 30 seconds!
+STRS_inv_item_food_burger_info,A tasty burger that regenerates your stamina for 60 seconds!
+STRS_inv_item_food_pizza_info,A delicious Italian pie that regenerates your stamina for 2 minutes!
+STRS_bank_rob_titlemsg,$$$$WARNING$$$$ Someone is robbing the bank $$$$WARNING$$$$
+STRS_bank_rob_lostnomoney,Because of your bank insurance you lost no money but you lost one bank insurance.
+STRS_bank_rob_somemoneylost,The bank has been robbed. You lost $%1 and have $%2 left in your account.
+STRS_bank_rob_allmoneylost,The bank has been robbed. You lost all the money in your account!
+STRS_bank_rob_success,You robbed the bank successfully. Escape before the cops catch you!
+STRS_bank_rob_info,You decided to rob the bank. Stay here until you get the money and then get the hell outta here!
+STRS_bank_rob_noweapon,You can't rob the bank without being armed.
+STRS_bank_rob_no,You can't rob the bank at the moment.
+STRS_bank_dialoge_tax,Incl. Taxes:
+STRS_bank_no_money,You don't have enough money in your account.
+STRS_bank_deposit_self_no,You don't have enough money in your account to transfer $%1 to the player. Remember that there is an additional %2%3 transfer fee.
+STRS_bank_account_getmoney,You got $%1 from %2 in your account.
+STRS_bank_deposit_yes,$%1 successfully transferred to the wanted Account. Please note that you had to pay %2 percent taxes for this transfer. So you paid $%3.
+STRS_bank_deposit_self_yes,$%1 transferred to your own account.
+STRS_bank_withdraw_yes,$%1 successfully withdrawn.
+STRS_bank_no_valid_number,The value is not a valid number.
+STRS_bank_player_not_ingame,Error: Player not in-game.
+STRS_gasstation_already_fueled,This vehicle's fuel is already at 100%.
+STRS_gasstation_refuel_left_vehicle,Stay inside the car while you are refueling it.
+STRS_gasstation_refuel_moved_vehicle,You canceled the Refuel-action by moving your vehicle.
+STRS_gasstation_refuel_not_enough_cash,You don't have enough money to refuel the vehicle completely.
+STRS_gasstation_refuel_finished,The vehicle's fuel is at 100% again!
+STRS_gasstation_refuel_message,Fuel Status: %1 of 100. \n You refueled 10 liters into your car. If you have enough
+STRS_addaction_buy_gas,Fill up for $%1 per 10 liters
+STRS_lotto_lost,Sorry, your lottery ticket didn't get drawn this time.
+STRS_lotto_winner,Congratulations
+STRS_lotto_nomoney,You do not have enough money.
+STRS_lotto_wait,You will be notified of the lottery results in 30 minutes.
+STRS_workplacemission_delivery_finish,You finished your Delivery Mission and got $%1!
+STRS_workplacemission_deliverymsg_1,Here's a package with some Weapons. Bring it to our client at %1.
+STRS_workplacemission_deliverymsg_2,A Client at %1 needs this package.
+STRS_workplacemission_deliverymsg_3,Take this USB Stick and bring it to %1.
+STRS_workplacemission_deliverymsg_4,One of our Clients at %1 wants this package.
+STRS_workplacemission_deliverymsg_5,"Here are some documents, deliver them to one of our customers at %1."
+STRS_workplacemission_deliverymsg_6,Here are some new Video games for our Customers at %1.
+STRS_workplacemission_deliverymsg_7,Our Client at %1 requested some external hard drives. Deliver them.
+STRS_workplacemission_searchjob_targetreached,You found the object you were searching for. Move closer to it in order to finish the job.
+STRS_workplacemission_search_finish,You have found the target and got $%1!
+STRS_workplacemission_addaction_searchjob, Get a search job
+STRS_workplacemission_addaction_searchjob_cancel, Cancel search job
+STRS_workplacemission_searchmsg_1,The priests have hidden an old pirate's grave.  Find it.
+STRS_workplacemission_searchmsg_2,A UH-80 crashed in the forest. Find it.
+STRS_workplacemission_searchmsg_3,Foster lost his cart. Find it for him.
+STRS_workplacemission_already,You already have a job to do.
+STRS_workplacemission_taxi_alreadyinuse,"Either you are already doing a Taxi job, or you canceled the job within the last %1 minutes, so you can not do another run now. "
+STRS_workplacemission_taxi_marker_kunde,Your passenger waits here
+STRS_workplacemission_taxi_marker_ziel,Your passenger wants to get here
+STRS_workplacemission_taxi_begin,A Passenger waits for you. You can see his/her position on the map. Drive around 20 meters near him/her and he/she will board your vehicle automatically.
+STRS_workplacemission_taxi_wannagetin,Your passenger wants to get into your vehicle. Stay here and wait until he has boarded it.
+STRS_workplacemission_taxi_target,Bring him to the position marked on the map!
+STRS_workplacemission_taxi_success,You successfully took your passenger to the target. For this fare you got paid $%1. You'll get a new job within a few seconds.
+STRS_workplacemission_taxi_failure,Either you or your passenger are dead. The Taxi-Mission is canceled.
+STRS_workplacemission_taxi_canceled,You finished the Taxi job.
+STRS_workplacemission_taxi_nospace,There is no space in your vehicle for your passenger.
+STRS_mainmenu_MissionTutorial,"Look at the briefing by pressing M in game.\nRead all the rules.\nLook at the Chaos Keys.\nRegister at http://globalchaosgaming.net for more."
+STRS_mainmenu_AboutThisMission,"Chaos Life is the next evolution of the classic Zargabad Life Mission. From the Global Chaos Gaming development crew:\n
+Foster, Durandal, Amerine, ImagoTrigger/Innocent Bystander/DOA, Zargero, Mash and Predreus
+\n\n
+Special thanks to: da.dctheole
+\n\n
+The original scripts are from saharni life handed down from Pogomon, ported to Zargabad by EddieV and tweaked by Gman and S.W.A.T."
+STRD_cam_description_header,Free cam
+STRD_cam_description_100north,100m North
+STRD_cam_description_100south,100m South
+STRD_cam_description_100west,100m West
+STRD_cam_description_100east,100m East
+STRD_cam_description_halt,Stop
+STRD_cam_description_nvgon,NV on
+STRD_cam_description_nvgoff,NV off
+STRS_item_gasmask,Gas mask
+STRS_veh_pistol,Holster pistol

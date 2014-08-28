@@ -1,0 +1,1 @@
+["GC_Goggles",["CHAOS LIFE GAS MASK", "You are already wearing your gas mask!"]] spawn bis_fnc_showNotification;

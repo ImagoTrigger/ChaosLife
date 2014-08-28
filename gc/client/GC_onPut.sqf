@@ -1,0 +1,1 @@
+diag_log text format["%1: %2",__FILE__,_this];

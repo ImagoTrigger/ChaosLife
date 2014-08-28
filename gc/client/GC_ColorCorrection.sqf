@@ -1,0 +1,1 @@
+"colorCorrections" ppEffectAdjust [1, 1, 0, [0.0, 0.0, 0.0, 0.0], [0.6, 0.7, 0.8, 0.65],  [0.199, 0.587, 0.114, 0.0]];  "colorCorrections" ppEffectCommit 6;  "colorCorrections" ppEffectEnable true;

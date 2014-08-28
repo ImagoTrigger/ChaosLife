@@ -1,0 +1,1 @@
+player groupchat "Please use your scroll wheel to interact with this NPC.";
