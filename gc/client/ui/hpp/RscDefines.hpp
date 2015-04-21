@@ -243,57 +243,17 @@ class RscEdit
   sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
   canModify = 1;
 };
-class RscCombo
-{
-  access = 0;
-  type = 4;
-  colorSelect[] =
-  {
-    0,
-    0,
-    0,
-    1
-  };
-  colorText[] =
-  {
-    0.95,
-    0.95,
-    0.95,
-    1
-  };
-  colorBackground[] =
-  {
-    0,
-    0,
-    0,
-    1
-  };
-  colorScrollbar[] =
-  {
-    1,
-    0,
-    0,
-    1
-  };
-  soundSelect[] =
-  {
-    "\A3\ui_f\data\sound\RscCombo\soundSelect",
-    0.1,
-    1
-  };
-  soundExpand[] =
-  {
-    "\A3\ui_f\data\sound\RscCombo\soundExpand",
-    0.1,
-    1
-  };
-  soundCollapse[] =
-  {
-    "\A3\ui_f\data\sound\RscCombo\soundCollapse",
-    0.1,
-    1
-  };
-  maxHistoryDelay = 1;
+class RscCombo { access = 0; type = CT_COMBO; style = ST_LEFT; h = 0.05; wholeHeight = 0.25; colorSelect[] = {0.6,0.6,0.6,1}; colorText[] = {1,1,1,1}; colorBackground[] = {0.2,0.2,0.2,1}; colorScrollbar[] = {1,1,1,1}; font = "TahomaB"; sizeEx = 0.04; soundSelect[] = {"",0.1,1}; soundExpand[] = {"",0.1,1}; soundCollapse[] = {"",0.1,1}; maxHistoryDelay = 1.0; shadow = 0;
+    colorDisabled[] =
+    {
+      1,
+      1,
+      1,
+      0.3
+    };
+    arrowFull = "\A3\ui_f\data\gui\cfg\scrollbar\arrowFull_ca.paa";
+    arrowEmpty = "\A3\ui_f\data\gui\cfg\scrollbar\arrowEmpty_ca.paa";
+
   class ScrollBar
   {
     color[] =
@@ -323,46 +283,8 @@ class RscCombo
     arrowEmpty = "\A3\ui_f\data\gui\cfg\scrollbar\arrowEmpty_ca.paa";
     border = "\A3\ui_f\data\gui\cfg\scrollbar\border_ca.paa";
   };
-  style = "0x10 + 0x200";
-  x = 0;
-  y = 0;
-  w = 0.12;
-  h = 0.035;
-  shadow = 0;
-  colorSelectBackground[] =
-  {
-    1,
-    1,
-    1,
-    0.7
-  };
-  arrowEmpty = "\A3\ui_f\data\GUI\RscCommon\rsccombo\arrow_combo_ca.paa";
-  arrowFull = "\A3\ui_f\data\GUI\RscCommon\rsccombo\arrow_combo_active_ca.paa";
-  wholeHeight = 0.45;
-  color[] =
-  {
-    1,
-    1,
-    1,
-    1
-  };
-  colorActive[] =
-  {
-    1,
-    0,
-    0,
-    1
-  };
-  colorDisabled[] =
-  {
-    1,
-    1,
-    1,
-    0.25
-  };
-  font = "PuristaMedium";
-  sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
-};
+ class ComboScrollBar : ScrollBar { color[] = {1,1,1,0.6}; colorActive[] = {1,1,1,1}; colorDisabled[] = {1,1,1,0.3}; thumb = "#(argb,8,8,3)color(1,1,1,1)"; arrowEmpty = "#(argb,8,8,3)color(1,1,1,1)"; arrowFull = "#(argb,8,8,3)color(1,1,1,1)"; border = "#(argb,8,8,3)color(1,1,1,1)"; shadow = 0; }; };
+/*
 class RscListBox
 {
   access = 0;
@@ -487,6 +409,78 @@ class RscListBox
   autoScrollDelay = 5;
   autoScrollRewind = 0;
 };
+*/
+
+class RscListBox
+{
+	type = 5;
+	style = 16;
+	font = "PuristaMedium";
+	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+	shadow = 0;
+	colorShadow[] = {0,0,0,0.5};
+	colorText[] = {1,1,1,1.0};
+	colorDisabled[] = {1,1,1,0.25};
+	colorScrollbar[] = {1,0,0,0};
+	colorSelect[] = {0,0,0,1};
+	colorSelect2[] = {0,0,0,1};
+	colorSelectBackground[] = {0.95,0.95,0.95,1};
+	colorSelectBackground2[] = {1,1,1,0.5};
+	period = 1.2;
+	colorBackground[] = {0,0,0,0.3};
+	maxHistoryDelay = 1.0;
+	soundSelect[] = {"\A3\ui_f\data\sound\RscListbox\soundSelect",0.09,1};
+	tooltipColorText[] = {1,1,1,1};
+	tooltipColorBox[] = {1,1,1,1};
+	tooltipColorShade[] = {0,0,0,0.65};
+	rowHeight = 0;
+	autoScrollSpeed = -1;
+	autoScrollDelay = 5;
+	autoScrollRewind = 0;
+  class ScrollBar
+  {
+    color[] =
+    {
+      1,
+      1,
+      1,
+      0.6
+    };
+    colorActive[] =
+    {
+      1,
+      1,
+      1,
+      1
+    };
+    colorDisabled[] =
+    {
+      1,
+      1,
+      1,
+      0.3
+    };
+    shadow = 0;
+    thumb = "\A3\ui_f\data\gui\cfg\scrollbar\thumb_ca.paa";
+    arrowFull = "\A3\ui_f\data\gui\cfg\scrollbar\arrowFull_ca.paa";
+    arrowEmpty = "\A3\ui_f\data\gui\cfg\scrollbar\arrowEmpty_ca.paa";
+    border = "\A3\ui_f\data\gui\cfg\scrollbar\border_ca.paa";
+  };
+  
+	class ListScrollBar : ScrollBar
+	{
+		color[] = {1,1,1,1};
+		autoScrollEnabled = 1;
+		
+		colorActive[] = {1, 1, 1, 1};
+		colorDisabled[] = {1, 1, 1, 0.3};
+		thumb = "\A3\ui_f\data\gui\cfg\scrollbar\thumb_ca.paa";
+		arrowFull = "\A3\ui_f\data\gui\cfg\scrollbar\arrowFull_ca.paa";
+		arrowEmpty = "\A3\ui_f\data\gui\cfg\scrollbar\arrowEmpty_ca.paa";
+		border = "\A3\ui_f\data\gui\cfg\scrollbar\border_ca.paa";
+	};
+};
+
 class RscButton
 {
   access = 0;
@@ -991,6 +985,21 @@ class RscButtonMenu : RscShortcutButton
     1,
     0.25
   };
+  colorBackgroundFocused[] =
+  {
+    "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.69])",
+    "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.75])",
+    "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.5])",
+    1
+  };
+  colorFocused[] =
+  {
+    "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.69])",
+    "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.75])",
+    "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.5])",
+    1
+  };
+
   period = 1.2;
   periodFocus = 1.2;
   periodOver = 1.2;

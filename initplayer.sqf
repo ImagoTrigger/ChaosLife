@@ -20,6 +20,11 @@ if (!isMultiplayer) then {
 	JIP_Stats_Ready = true;
 	[player] call GC_preloadStats;
 };
+if (profileName == "ChaosBot") then {
+	JIP_Stats_Ready = true;
+	[player] call GC_preloadStats;
+
+};
 
 waitUntil {sleep 2; player commandChat format["%1...", ([] call GC_Cfg_RandomLoadingMessage)]; JIP_Stats_Ready};
 player setvariable["loaded",true,true];

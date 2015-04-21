@@ -92,7 +92,7 @@ class Mission
 	randomSeed=6534840;
 	class Intel
 	{
-		briefingName="Chaos Life 1.3 by GC - Terror in Stratis";
+		briefingName="Chaos Life 1.31 by GC - Terror in Stratis";
 		resistanceWest=0;
 		startWeather=0.28999999;
 		startWind=0;
@@ -114,7 +114,7 @@ class Mission
 		items=294;
 		class Item0
 		{
-			side="WEST";
+			side="LOGIC";
 			class Vehicles
 			{
 				items=1;
@@ -123,14 +123,15 @@ class Mission
 					position[]={8190.5269,-113.4853,2.0131836};
 					offsetY=1;
 					id=0;
-					side="WEST";
-					vehicle="B_soldier_UAV_F";
+					side="LOGIC";
+					special="NONE";
+					vehicle="HeadlessClient_F";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="ChaosBot";
 					init="this allowDamage false;";
-					description="ChaosBot v1.3 Only!";
+					description="ChaosBot v1.31 Only!";
 				};
 			};
 		};

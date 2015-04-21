@@ -13,7 +13,6 @@ if (count _this > 3) then {
 };
 diag_log text format["MP fnc - vehicle created: %1",_this];
 _obj setVehicleVarName _objstr;
-PublicVariable _objstr;
 while {isnil "_obj"} do {
 	_timeout = _timeout + 1;
 	if (_timeout > 100) exitwith{diag_log text "GC FAIL";};
@@ -24,7 +23,9 @@ while {(vehicleVarName _obj) != _objstr} do {
 	if (_timeout > 50) exitwith{diag_log text "GC FAIL 2";};
 	sleep 0.15;
 };
-_obj setVehicleVarName _objstr;
+
+_obj call compile format ["%1=_this; PublicVariable ""%1""",_objstr];
+sleep 1;
 [_obj,0] execVM "scripts\mountOnVcl\mount_vcl_init.sqf";
 clearWeaponCargo _obj;
 clearMagazineCargo _obj;

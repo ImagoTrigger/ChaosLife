@@ -289,8 +289,6 @@ INV_CreateVehicle = {
 		vehicle_%1_%2 setVariable["created",time,true];
 		vehicle_%1_%2 lock 2;
 	', rolestring, _ctime, INV_CALL_CREATVEHICLE, getpos _logic, getdir _logic];
-	call compile format['[[[vehicle_%1_%2,"vehicle_%1_%2","%3","%4"],"gc\global\GC_onVehicleCreated.sqf"],"BIS_fnc_execVM",true,true] call BIS_fnc_MP;',rolestring, _ctime,_code,_code2];
-	sleep 0.5;
 	call compile format['
 		if (vehicle_%1_%2 iskindof "Air") then {
 			vehicle_%1_%2 say "createairsfx";
@@ -309,8 +307,9 @@ INV_CreateVehicle = {
 			} forEach crew vehicle_%1_%2;			
 		};
 	',player, _ctime, rolenumber];
-	sleep 0.5;
 	call compile format['INV_VehicleArray = INV_VehicleArray + [vehicle_%1_%2];',rolestring, _ctime];
+	call compile format['[[[vehicle_%1_%2,"vehicle_%1_%2","%3","%4"],"gc\global\GC_onVehicleCreated.sqf"],"BIS_fnc_execVM",true,true] call BIS_fnc_MP;',rolestring, _ctime,_code,_code2];
+	sleep 2;	
 	format['INV_ServerVclArray = INV_ServerVclArray + [vehicle_%1_%2];vehicle_%1_%2_storage = [];',rolestring, _ctime] call broadcast;
 	
 	if (_mastername == "I_G_Quadbike_01_F_hunting") then {
@@ -320,6 +319,7 @@ INV_CreateVehicle = {
 			player groupchat "You now have a hunting license, this quadbike came with one!";
 		};
 	};
+
 	if (_mastername == "B_MRAP_01_F_cr") then {
 		call compile format ['
 			vehicle_%1_%2 setvariable["tuning",5,true];
