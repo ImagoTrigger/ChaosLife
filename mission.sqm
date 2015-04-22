@@ -48,19 +48,20 @@ class Mission
 		"a3_air_f_heli_light_01",
 		"a3_characters_f_gamma",
 		"a3_uav_f_characters_f_gamma",
-		"A3_Characters_F_INDEP"
+		"A3_Characters_F_INDEP",
+		"A3_Characters_F",
+		"A3_Modules_F",
+		"A3_Data_F"
 	};
 	addOnsAuto[]=
 	{
-		"A3_Characters_F_Gamma",
-		"a3_uav_f_characters_f_gamma",
+		"A3_Characters_F",
 		"A3_Characters_F_Civil",
+		"A3_Modules_F",
 		"A3_Characters_F_OPFOR",
-		"a3_characters_f_beta",
 		"A3_Characters_F_BLUFOR",
 		"A3_Characters_F_Common",
 		"A3_Weapons_F_Ammoboxes",
-		"a3_weapons_f_beta_ammoboxes",
 		"A3_Structures_F_Ind_FuelStation",
 		"A3_Structures_F_Civ_Camping",
 		"A3_Structures_F_Items_Electronics",
@@ -76,6 +77,7 @@ class Mission
 		"A3_Structures_F_Items_Cans",
 		"A3_Structures_F_Civ_InfoBoards",
 		"A3_Structures_F_Furniture",
+		"A3_Data_F",
 		"a3_roads_f",
 		"A3_Structures_F_Civ_Lamps",
 		"A3_Signs_F",
@@ -122,9 +124,9 @@ class Mission
 				{
 					position[]={8190.5269,-113.4853,2.0131836};
 					offsetY=1;
+					special="NONE";
 					id=0;
 					side="LOGIC";
-					special="NONE";
 					vehicle="HeadlessClient_F";
 					player="PLAY CDG";
 					leader=1;
