@@ -6,9 +6,7 @@ onEachFrame {
 	};
 	if (player getvariable "fucked") then {
 		player switchMove "inbasemoves_handsbehindback1";
-		if (getpos player != (player getvariable "fuckedpos")) then {
-			player setpos (player getvariable "fuckedpos");
-		};
+		player setpos (player getvariable "fuckedpos");
 		[player, -80, 0] call setPitchBank;
 	};	
 };
