@@ -42,6 +42,7 @@ siren_is_on = false;
 if (local_arrest == 0) then {
 	if (isciv) then {player setpos getpos (respawnarray select (floor(random(count respawnarray))));};
 } else {
+	//CHECK 2015 NYI TODO
 	player switchmove "inbasemoves_handsbehindback1";
 	["arrest", CivTimeInPrison, player] execVM "civmenu.sqf";
 };

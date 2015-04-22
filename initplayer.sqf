@@ -155,6 +155,8 @@ if (profileName != "ChaosBot") then {
 		["oldSlot", [oldSlot]] call ClientSaveVar;
 	};
 };
+
+//CHECK 2015 IMAGO TODO NYI
 if (local_arrest == 1) then {player switchmove "inbasemoves_handsbehindback1"; waituntil {sleep 0.3; animationstate player == "inbasemoves_handsbehindback1"}; ["arrest", 20, player] execVM "civmenu.sqf";};
 
 if (isdead == 1 and isciv) then {player setpos getpos (respawnarray select (floor(random(count respawnarray))));[] execVM "rejoincamera.sqf";};

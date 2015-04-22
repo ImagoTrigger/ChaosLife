@@ -5,6 +5,7 @@ _civmenuciv = civmenuciv;
 if (_selection == "Use") then {
 	if (iscop) exitwith {player groupchat "Cops are not permitted to use zipties!"};
 	if (animationstate _civmenuciv == "inbasemoves_handsbehindback1") exitwith {
+		_civmenuciv setvariable["fucked",false,true];
 		(format ["[%1, 0, 0] call setPitchBank;%1 switchmove ""%2""; ", _civmenuciv, "amovppnemstpsnonwnondnon"]) call broadcast;
 	};
 
@@ -16,6 +17,8 @@ if (_selection == "Use") then {
 	publicvariable format["SFXPvEh_%1", rolenumber];
 	vehicle player say ["restrainsfx",100];
 	["ziptie",-1] call INV_AddInventoreItem;
+	_civmenuciv setvariable["fucked",true,true];
+	_civmenuciv setvariable["fuckedpos",getpos _civmenuciv,true];
 	(format ["%1 switchmove ""%2"";[%1, -82, 0] call setPitchBank;", _civmenuciv, "inbasemoves_handsbehindback1"]) call broadcast;
 	player groupchat format["You tied up %1",name _civmenuciv];
 	(format['if(player == %1)then{player groupchat "You have been ziptied by %2!";};',_civmenuciv, name player]) call broadcast;
@@ -25,3 +28,5 @@ if (_selection == "Use") then {
 		gc_tiedplayer = false;
 	};
 };
+
+//NYI TODO - WATCH DISTANCE/ALIVE STATE OF PERSON WHO ZIPTIED AND MANAGE TO FREE YOURSELF 2015 IMAGO

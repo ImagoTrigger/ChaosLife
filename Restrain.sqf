@@ -2,13 +2,10 @@ _civ = civmenuciv;
 
 //=====================================UNRESTRAIN=========================================
 
-if(animationstate _civ == "inbasemoves_handsbehindback1") exitwith
-
-{
-
-(format ["[%1, 0, 0] call setPitchBank;%1 switchmove ""%2""; ", _civ, "amovppnemstpsnonwnondnon"]) call broadcast;
-player groupchat "You released the civilian!";
-
+if(animationstate _civ == "inbasemoves_handsbehindback1") exitwith {
+	_civ setvariable["fucked",false,true];
+	(format ["[%1, 0, 0] call setPitchBank;%1 switchmove ""%2""; ", _civ, "amovppnemstpsnonwnondnon"]) call broadcast;
+	player groupchat "You released the civilian!";
 };
 
 //==================================RESTRAIN=========================================
@@ -19,6 +16,8 @@ if (!(_civ call ISSE_IsVictim)) exitwith {player groupchat localize "STRS_invent
 call compile format['SFXPvEh_%1 = ["%2","restrainsfx"];',rolenumber,rolestring];
 publicVariable format["SFXPvEh_%1", rolenumber];   
 vehicle player say ["restrainsfx",100];
+_civ setvariable["fucked",true,true];
+_civ setvariable["fuckedpos",getpos _civ,true];
 (format ["%1 switchmove ""%2"";[%1, -82, 0] call setPitchBank;", _civ, "inbasemoves_handsbehindback1"]) call broadcast;
 
 _wanted = call compile format ["%1_wanted", _civ];

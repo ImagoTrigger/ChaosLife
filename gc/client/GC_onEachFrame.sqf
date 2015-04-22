@@ -4,6 +4,13 @@ onEachFrame {
 	if((cameraView == "EXTERNAL" || cameraView == "GROUP") and (vehicle player == player)) then {
 		vehicle player switchCamera "INTERNAL";
 	};
+	if (player getvariable "fucked") then {
+		player switchMove "inbasemoves_handsbehindback1";
+		if (getpos player != (player getvariable "fuckedpos")) then {
+			player setpos (player getvariable "fuckedpos");
+		};
+		[player, -80, 0] call setPitchBank;
+	};	
 };
 GC_playerColor = getarray (configfile >> "cfgingameui" >> "islandmap" >> "colorMe");
 GC_playerColor2 = [1,1,1,1];
